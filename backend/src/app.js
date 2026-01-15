@@ -41,8 +41,9 @@ app.get('/', (req, res) => {
     }, 'Welcome to Customer Support Chatbot API');
 });
 
-// API routes will be added here
-// app.use('/api/auth', require('./routes/auth.routes'));
+// API routes
+app.use('/api/auth', require('./routes/auth.routes'));
+app.use('/api/users', require('./routes/user.routes'));
 // app.use('/api/chat', require('./routes/chat.routes'));
 
 // 404 handler - must be after all routes
