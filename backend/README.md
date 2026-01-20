@@ -2,7 +2,7 @@
 
 Backend server for the customer support chatbot application built with Node.js, Express, and MongoDB.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 backend/
@@ -20,7 +20,7 @@ backend/
 └── package.json        # Dependencies
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -46,7 +46,7 @@ npm run dev
 npm start
 ```
 
-## 📦 Installed Dependencies
+##  Installed Dependencies
 
 ### Core Dependencies
 - **express** - Web framework
@@ -60,19 +60,19 @@ npm start
 ### Dev Dependencies
 - **nodemon** - Auto-restart on file changes
 
-## 🔧 Available Scripts
+##  Available Scripts
 
 - `npm start` - Start production server
 - `npm run dev` - Start development server with nodemon
 - `npm test` - Run tests (to be configured)
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 The server runs on `http://localhost:5000` by default.
 
 - `GET /health` - Health check endpoint
 
-## 📝 Environment Variables
+##  Environment Variables
 
 See `.env` file for required environment variables:
 - `PORT` - Server port (default: 5000)
@@ -82,7 +82,7 @@ See `.env` file for required environment variables:
 - `JWT_EXPIRE` - JWT expiration time
 - `CLIENT_URL` - Frontend URL for CORS
 
-## 🔐 Security
+##  Security
 
 - Passwords are hashed using bcryptjs
 - JWT tokens for authentication
